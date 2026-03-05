@@ -25,13 +25,15 @@ It wrote the code, ran away, and now the game is unplayable.
 
 ## 📝 Document Your Experience
 
-- [ ] Describe the game's purpose.
-- [ ] Detail which bugs you found.
-- [ ] Explain what fixes you applied.
+A number-guessing game with hints and a score tracker — except the hints were backwards, the secret changed type every other guess, and Hard mode was easier than Normal.
+
+Fixed inverted hints, removed the string/int alternation bug, corrected the Hard difficulty range, and refactored all game logic into `logic_utils.py`.
 
 ## 📸 Demo
 
-- [ ] [Insert a screenshot of your fixed, winning game here]
+- [ ] [Insert a screenshot of your fixed, winning game here]![alt text](image.png)
+
+![alt text](image-1.png)
 
 ## 🚀 Stretch Features
 
